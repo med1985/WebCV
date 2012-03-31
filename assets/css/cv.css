@@ -1,0 +1,19 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.sidebar-nav {
+  padding: 9px 0;
+}
+.hero-unit {
+  padding: 30px;
+}
+#personal-profile {
+  font-size: 1em;
+}
+.menu {
+  position: fixed;
+}
+.filler.content {
+  z-index: -1;
+}
