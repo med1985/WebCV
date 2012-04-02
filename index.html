@@ -5,14 +5,22 @@
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/cv.css"/>
     <link rel="stylesheet" href="css/bootstrap-responsive.css"/>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="js/cv.js"></script>
   </head>
   <body>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
           <span class="brand" href="#">Mehdi Houshmand</span>
-	  <ul class="nav nav-tabs">
-            <li><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
+	  <ul class="nav nav-pills" id="sections-dropdown">
+	    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" >Sections<b class="caret"></b></a>
+	      <ul class="dropdown-menu">
+	        <li><a href="#Work Experience">Work Experience</a></li>
+	      </ul>
+	    </li>
 	  </ul>
         </div>
       </div>
@@ -157,7 +165,5 @@
         </div>
       </div>
      </div>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
   </body>
 </html>
