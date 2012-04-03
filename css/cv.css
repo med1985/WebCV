@@ -5,15 +5,25 @@ body {
 .sidebar-nav {
   padding: 9px 0;
 }
+.sidebar-fixed-nav {
+  padding: 9px 0;
+  position: fixed;
+  left: 20px;
+  top: 60px;
+  width: 200px;
+}
+.row-fluid > .span-fixed-sidebar {
+  margin-left: 220px !important;
+}
 .hero-unit {
   padding: 30px;
 }
 #personal-profile {
   font-size: 1em;
 }
-.menu {
-  position: fixed;
-}
 .filler.content {
   z-index: -1;
+}
+.container {
+  margin-left: 20px;
 }
