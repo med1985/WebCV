@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/cv.css"/>
+    <link rel="stylesheet" href="css/bootstrap-responsive.css"/>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="js/cv.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+	  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </a>
+          <a class="brand" href="#">Mehdi Houshmand</a>
+	  <div class="nav-collapse">
+	    <ul class="nav nav-pills" id="sections-dropdown">
+	      <li><a href="index.html"><i class="icon-home icon-white"></i> Home</a>
+	    </ul>
+	  </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-fixed-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Section</li>
+              <li><a href="#Apache Projects">Apache Projects</a></li>
+              <li><a href="#MODiCA">MODiCA</a></li>
+            </ul>
+          </div><!-- well -->
+        </div><!-- span -->
+        <div class="span9 span-fixed-sidebar">
+          <div class="page-header"><h1><a name="Opensource Projects"></a>Opensource Projects</h1></div>
+          <div>
+            <div><h3><a name="Apache Projects"></a>Apache Projects</h3></div>
+            <p>
+              Worked on several Apache projects including <a href="http://xmlgraphics.apache.org/">XMLGraphics</a> and <a href="http://pdfbox.apache.org/">PDFBox</a>.
+  	    Currently I am a committer and PMC member of the XMLGraphics group and hope to continue working with the community. 
+            </p>
+            <div><h3><a name="MODiCA"></a>MODiCA</h3></div>
+            <p>
+              <a href="https://github.com/modica/modica">MODiCA</a> was borne from a growing frustration with using the myriad AFP tools available. We found them to be
+  	    difficult to use and pretty ugly while still not giving you the breadth of information one needs when analysing AFP documents. The biggest problem however
+  	    is that they weren't opensource, so we couldn't improve them. The AFP world is a small one and dominated by niche propietary software. So we began
+  	    designing an AFP parser, fully opensource, with an emphasis on designing the API to be flexible and intuitive while still giving clients a powerful
+  	    parsing mechanism. We put a heavy focus on both JUnit and integration testing to ensure consistency and to maintain a high quality opensource project.
+            </p>
+          </div><!-- this div, no class -->
+	</div><!-- span -->
+      </div><!-- row-fluid -->
+    </div><!-- container-fluid -->
+  </body>
+</html>
