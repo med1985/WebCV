@@ -9,7 +9,6 @@ body {
   padding: 9px 0;
   position: fixed;
   left: 20px;
-  top: 60px;
   width: 200px;
 }
 .row-fluid > .span-fixed-sidebar {
